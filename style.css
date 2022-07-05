@@ -43,9 +43,9 @@ section.banner {
 .flex-container{
     display: flex;
 }
-.amount-flex-item{
+.flex-item{
     width: 50%;
-    margin: 0px 5%;
+    margin: 0px 2%;
 }
 section.donate-ammount {
     padding: 70px 0px;
@@ -71,4 +71,60 @@ section.donate-ammount {
 .donate-amount-wrapper {
     width: 800px;
     margin: auto;
+}
+.donate-box {
+    background: #f3f3f3;
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+.donate-box h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #707070;
+}
+#active-box {
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+}
+
+#active-box h1 {
+    color: #FF5959;
+}
+.donet-fild {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.donet-fild hr {
+    width: 57%;
+}
+
+.donet-fild input {
+    border: none;
+    font-size: 16px;
+    padding: 8px 30px;
+    color: #B3B3B3;
+}
+section.our-plan {
+    padding: 70px 0px;
+}
+.plan-box{
+    padding: 30px;
+    border-radius: 5px;
+}
+#first-plan-box {
+    background: #EDF5F6;
+}
+div#second-plan-box {
+    background: #FFEEEE;
+}
+
+div#third-plan-box {
+    background: #FFF4D6;
+}
+.gallery-item img{
+    width: 100%;
+    height: 90%;
 }
