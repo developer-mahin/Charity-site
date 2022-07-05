@@ -1,7 +1,74 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Josefin Sans', sans-serif;
+}
+section.banner {
+    height: 80vh;
+    background-image: linear-gradient(rgb(12 12 12 / 8%), rgba(16, 13, 13, 0.904)), url(images/donation2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 25px 0px
+}
+.banner-description {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.banner-description h1 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.banner-description p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.button-style {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF5959;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.flex-container{
+    display: flex;
+}
+.amount-flex-item{
+    width: 50%;
+    margin: 0px 5%;
+}
+section.donate-ammount {
+    padding: 70px 0px;
+}
+
+.title-short-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-short-description h1 {
+    font-size: 45px;
+    color: #121212;
+    margin: 0px;
+}
+
+.title-short-description p {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.donate-amount-wrapper {
+    width: 800px;
+    margin: auto;
 }
