@@ -176,3 +176,7 @@ footer {
 .footer-description p {
     color: #D9DBE1;
 }
+.donate-box button {
+    border: none;
+    background: none;
+}
