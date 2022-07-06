@@ -79,10 +79,15 @@ section.donate-ammount {
     border-radius: 5px;
 }
 
-.donate-box h1 {
+.donate-box button{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     color: #707070;
+    border: none;
+    margin: 0px;
+    background: none;
+    padding: 16px 1px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #active-box {
     border: 2px solid #FF5959;
@@ -175,8 +180,4 @@ footer {
 
 .footer-description p {
     color: #D9DBE1;
-}
-.donate-box button {
-    border: none;
-    background: none;
 }
